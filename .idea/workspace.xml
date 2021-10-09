@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/K-BERT" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ynulY0pjg4KDhdjeP0eFXuLW9A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,7 +165,7 @@
       <updated>1632899824522</updated>
       <workItem from="1632899833401" duration="594000" />
       <workItem from="1633657126783" duration="9276000" />
-      <workItem from="1633745669781" duration="2648000" />
+      <workItem from="1633745669781" duration="3196000" />
     </task>
     <servers />
   </component>
