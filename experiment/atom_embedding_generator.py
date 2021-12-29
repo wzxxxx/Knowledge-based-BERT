@@ -43,6 +43,7 @@ def bert_atom_embedding(smiles, pretrain_model='pretrain_k_bert_epoch_7.pth'):
                             mode=args['mode'])
     model.to(args['device'])
     stopper.load_pretrained_model(model)
+    model.eval()
 
     token_idx = torch.tensor([token_idx]).long().to(args['device'])
     atom_mask = atom_mask_list
