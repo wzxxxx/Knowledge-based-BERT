@@ -1,4 +1,4 @@
-from experiment.build_data import construct_input_from_smiles
+https://github.com/wzxxxx/Knowledge-based-BERT/tree/main/experimentfrom experiment.build_data import construct_input_from_smiles
 import torch
 from experiment.my_nn import EarlyStopping, set_random_seed, BERT_atom_embedding_generator
 import os
@@ -43,7 +43,6 @@ def bert_atom_embedding(smiles, pretrain_model='pretrain_k_bert_epoch_7.pth'):
                             mode=args['mode'])
     model.to(args['device'])
     stopper.load_pretrained_model(model)
-    model.eval()
 
     token_idx = torch.tensor([token_idx]).long().to(args['device'])
     atom_mask = atom_mask_list
