@@ -1,4 +1,4 @@
-from experiment.build_data import construct_input_from_smiles
+https://github.com/wzxxxx/Knowledge-based-BERT/tree/main/experimentfrom experiment.build_data import construct_input_from_smiles
 import torch
 from experiment.my_nn import EarlyStopping, set_random_seed, BERT_atom_embedding_generator
 import os
