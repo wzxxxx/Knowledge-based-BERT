@@ -251,7 +251,7 @@ class BERT_atom_embedding_generator(nn.Module):
 
     def forward(self, input_ids, atom_mask):
         output = self.embedding(input_ids)
-        enc_self_attn_mask = get_attn_pad_mask(input_ids, input_ids)
+        enc_self_attn_mask = get_attn_pad_mask(input_ids)
         for layer in self.layers:
             output = layer(output, enc_self_attn_mask)
         h_global = output[:, 0]
